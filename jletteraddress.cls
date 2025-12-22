@@ -100,14 +100,14 @@
       \parbox<t>[t]{90truemm}{\hfil#1　#2\hskip1zw#3}\hfil}
     }
     % 送り主住所
-    \put(27,85){\fontsize{12pt}{0pt}\selectfont%
+    \put(23,85){\fontsize{12pt}{0pt}\selectfont%
         \parbox<t>[t]{55truemm}{\@senderaddressa}}
-    \put(21,85){\fontsize{12pt}{0pt}\selectfont%
+    \put(17,85){\fontsize{12pt}{0pt}\selectfont%
         \parbox<t>[t]{55truemm}{\@senderaddressb}}
     %\put(10,85){\kanjiskip=.3zw
     %  \fontsize{15pt}{0pt}\selectfont%
     %    \parbox<t>[t]{55truemm}{\hfil\@senderfamilyname\hskip1zw\@senderlastnames}\hfil}
-    \put(9,85){\kanjiskip=.3zw
+    \put(6,85){\kanjiskip=.3zw
       \fontsize{14pt}{0pt}\selectfont%
         \settowidth{\familywidth}{\@senderfamilyname}%
         \parbox<t>[t]{55truemm}{%
@@ -125,7 +125,7 @@
             \@senderfamilyname\hskip1zw\@senderlastnames
           }
         }\hfil}
-    \put(4,20){ %
+    \put(2,20){ %
       \vtop to 6.5truemm{\vfil\hbox{\fontsize{12pt}{0pt}\selectfont%
         \hbox to 4truemm{\hfil\StrChar{\@senderpostcode}{1}\hfil}%
         \hbox to 4truemm{\hfil\StrChar{\@senderpostcode}{2}\hfil}%
